@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "37726ff7-5032-4d53-99eb-4bb0b0a93ab5++5326",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "37726ff7-5032-4d53-99eb-4bb0b0a93ab5++5326" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "37726ff7-5032-4d53-99eb-4bb0b0a93ab5++5326" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EA6D23AE-C4C6-4673-A238-C03C073342E6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "37726ff7-5032-4d53-99eb-4bb0b0a93ab5++5326" : "ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "lovecar",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "mywork\/lovecar\/lovecar\/lovecar.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/121.40.130.117",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "37726ff7-5032-4d53-99eb-4bb0b0a93ab5++5326"
+    }
+  ]
+}
