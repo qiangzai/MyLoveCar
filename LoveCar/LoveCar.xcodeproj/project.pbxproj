@@ -19,6 +19,11 @@
 		29EAF44D1D91074800C38E9C /* AppWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EAF44C1D91074800C38E9C /* AppWindow.m */; };
 		29EAF4501D910BB200C38E9C /* GFRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EAF44F1D910BB200C38E9C /* GFRootViewController.m */; };
 		29EAF4571D9110FE00C38E9C /* GFHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EAF4561D9110FE00C38E9C /* GFHomeView.m */; };
+		29EAF45A1D9119B400C38E9C /* GFHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EAF4591D9119B400C38E9C /* GFHomeCollectionViewCell.m */; };
+		29EAF45D1D91218400C38E9C /* GFShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EAF45C1D91218400C38E9C /* GFShowViewController.m */; };
+		29EAF4601D9121A800C38E9C /* GFListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EAF45F1D9121A800C38E9C /* GFListViewController.m */; };
+		29EAF4631D9121BD00C38E9C /* GFSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EAF4621D9121BD00C38E9C /* GFSearchViewController.m */; };
+		29EAF4661D9122D700C38E9C /* GFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EAF4651D9122D700C38E9C /* GFBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +67,16 @@
 		29EAF44F1D910BB200C38E9C /* GFRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFRootViewController.m; sourceTree = "<group>"; };
 		29EAF4551D9110FE00C38E9C /* GFHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFHomeView.h; sourceTree = "<group>"; };
 		29EAF4561D9110FE00C38E9C /* GFHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFHomeView.m; sourceTree = "<group>"; };
+		29EAF4581D9119B400C38E9C /* GFHomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFHomeCollectionViewCell.h; sourceTree = "<group>"; };
+		29EAF4591D9119B400C38E9C /* GFHomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFHomeCollectionViewCell.m; sourceTree = "<group>"; };
+		29EAF45B1D91218400C38E9C /* GFShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFShowViewController.h; sourceTree = "<group>"; };
+		29EAF45C1D91218400C38E9C /* GFShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFShowViewController.m; sourceTree = "<group>"; };
+		29EAF45E1D9121A800C38E9C /* GFListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFListViewController.h; sourceTree = "<group>"; };
+		29EAF45F1D9121A800C38E9C /* GFListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFListViewController.m; sourceTree = "<group>"; };
+		29EAF4611D9121BD00C38E9C /* GFSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSearchViewController.h; sourceTree = "<group>"; };
+		29EAF4621D9121BD00C38E9C /* GFSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSearchViewController.m; sourceTree = "<group>"; };
+		29EAF4641D9122D700C38E9C /* GFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFBaseViewController.h; sourceTree = "<group>"; };
+		29EAF4651D9122D700C38E9C /* GFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +131,8 @@
 				29EAF4191D91057C00C38E9C /* AppDelegate.m */,
 				29EAF44B1D91074800C38E9C /* AppWindow.h */,
 				29EAF44C1D91074800C38E9C /* AppWindow.m */,
+				29EAF4641D9122D700C38E9C /* GFBaseViewController.h */,
+				29EAF4651D9122D700C38E9C /* GFBaseViewController.m */,
 				29EAF44E1D910BB200C38E9C /* GFRootViewController.h */,
 				29EAF44F1D910BB200C38E9C /* GFRootViewController.m */,
 				29EAF4521D9110D300C38E9C /* Model */,
@@ -179,6 +196,8 @@
 			children = (
 				29EAF4551D9110FE00C38E9C /* GFHomeView.h */,
 				29EAF4561D9110FE00C38E9C /* GFHomeView.m */,
+				29EAF4581D9119B400C38E9C /* GFHomeCollectionViewCell.h */,
+				29EAF4591D9119B400C38E9C /* GFHomeCollectionViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,6 +205,12 @@
 		29EAF4541D9110D300C38E9C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				29EAF45B1D91218400C38E9C /* GFShowViewController.h */,
+				29EAF45C1D91218400C38E9C /* GFShowViewController.m */,
+				29EAF45E1D9121A800C38E9C /* GFListViewController.h */,
+				29EAF45F1D9121A800C38E9C /* GFListViewController.m */,
+				29EAF4611D9121BD00C38E9C /* GFSearchViewController.h */,
+				29EAF4621D9121BD00C38E9C /* GFSearchViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -326,10 +351,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29EAF4661D9122D700C38E9C /* GFBaseViewController.m in Sources */,
 				29EAF44D1D91074800C38E9C /* AppWindow.m in Sources */,
 				29EAF4231D91057C00C38E9C /* LoveCar.xcdatamodeld in Sources */,
+				29EAF45A1D9119B400C38E9C /* GFHomeCollectionViewCell.m in Sources */,
+				29EAF45D1D91218400C38E9C /* GFShowViewController.m in Sources */,
 				29EAF41D1D91057C00C38E9C /* ViewController.m in Sources */,
+				29EAF4601D9121A800C38E9C /* GFListViewController.m in Sources */,
 				29EAF4501D910BB200C38E9C /* GFRootViewController.m in Sources */,
+				29EAF4631D9121BD00C38E9C /* GFSearchViewController.m in Sources */,
 				29EAF41A1D91057C00C38E9C /* AppDelegate.m in Sources */,
 				29EAF4171D91057C00C38E9C /* main.m in Sources */,
 				29EAF4571D9110FE00C38E9C /* GFHomeView.m in Sources */,

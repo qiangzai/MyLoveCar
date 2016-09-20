@@ -1,5 +1,5 @@
 //
-//  GFRootViewController.h
+//  GFSearchViewController.h
 //  LoveCar
 //
 //  Created by lizhongqiang on 16/9/20.
@@ -8,6 +8,6 @@
 
 #import "GFBaseViewController.h"
 
-@interface GFRootViewController : GFBaseViewController
+@interface GFSearchViewController : GFBaseViewController
 
 @end

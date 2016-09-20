@@ -1,36 +1,41 @@
 //
-//  GFRootViewController.m
+//  GFBaseViewController.m
 //  LoveCar
 //
 //  Created by lizhongqiang on 16/9/20.
 //  Copyright © 2016年 lizhongqiang. All rights reserved.
 //
 
-#import "GFRootViewController.h"
-#import "GFHomeView.h"
+#import "GFBaseViewController.h"
 
-@interface GFRootViewController ()
+@interface GFBaseViewController ()
 
 @end
 
-@implementation GFRootViewController
-{
-    GFHomeView *_homeView;
-    
-}
+@implementation GFBaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.navigationItem.title = @"测试";
+    self.view.backgroundColor = [UIColor whiteColor];
     
-    _homeView = [[GFHomeView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
-    _homeView.controller = self;
-    [self.view addSubview:_homeView];
-    
-    
-    
+}
+
+
+- (void)push:(UIViewController *)controller anim:(BOOL)anim
+{
+    [self.navigationController pushViewController:controller animated:anim];
+}
+
+- (void)pop:(BOOL)anim
+{
+    [self.navigationController popViewControllerAnimated:anim];
+}
+
+- (void)popToRoot:(BOOL)anim
+{
+    [self.navigationController popToRootViewControllerAnimated:anim];
 }
 
 - (void)didReceiveMemoryWarning {

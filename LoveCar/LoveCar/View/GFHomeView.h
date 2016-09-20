@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GFBaseViewController.h"
 
-@interface GFHomeView : UIView
-
+@interface GFHomeView : UIView<UICollectionViewDelegate, UICollectionViewDataSource>
+@property (nonatomic, assign) GFBaseViewController *controller;
 @end

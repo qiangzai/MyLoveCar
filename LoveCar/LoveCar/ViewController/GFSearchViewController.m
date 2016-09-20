@@ -1,36 +1,22 @@
 //
-//  GFRootViewController.m
+//  GFSearchViewController.m
 //  LoveCar
 //
 //  Created by lizhongqiang on 16/9/20.
 //  Copyright © 2016年 lizhongqiang. All rights reserved.
 //
 
-#import "GFRootViewController.h"
-#import "GFHomeView.h"
+#import "GFSearchViewController.h"
 
-@interface GFRootViewController ()
+@interface GFSearchViewController ()
 
 @end
 
-@implementation GFRootViewController
-{
-    GFHomeView *_homeView;
-    
-}
+@implementation GFSearchViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    self.navigationItem.title = @"测试";
-    
-    _homeView = [[GFHomeView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
-    _homeView.controller = self;
-    [self.view addSubview:_homeView];
-    
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {
