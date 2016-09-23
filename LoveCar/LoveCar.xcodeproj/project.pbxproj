@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		292E326C1D951F9400FF0A4B /* UIView+RSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 292E326B1D951F9400FF0A4B /* UIView+RSAdditions.m */; };
+		292E326F1D9523FF00FF0A4B /* GFShowCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 292E326E1D9523FF00FF0A4B /* GFShowCollectionViewCell.m */; };
 		29EAF4171D91057C00C38E9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EAF4161D91057C00C38E9C /* main.m */; };
 		29EAF41A1D91057C00C38E9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EAF4191D91057C00C38E9C /* AppDelegate.m */; };
 		29EAF41D1D91057C00C38E9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EAF41C1D91057C00C38E9C /* ViewController.m */; };
@@ -44,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		292E32681D94FEC000FF0A4B /* GFHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFHeader.h; sourceTree = "<group>"; };
+		292E326A1D951F9400FF0A4B /* UIView+RSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RSAdditions.h"; sourceTree = "<group>"; };
+		292E326B1D951F9400FF0A4B /* UIView+RSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RSAdditions.m"; sourceTree = "<group>"; };
+		292E326D1D9523FF00FF0A4B /* GFShowCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFShowCollectionViewCell.h; sourceTree = "<group>"; };
+		292E326E1D9523FF00FF0A4B /* GFShowCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFShowCollectionViewCell.m; sourceTree = "<group>"; };
 		29EAF4121D91057C00C38E9C /* LoveCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EAF4161D91057C00C38E9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29EAF4181D91057C00C38E9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +111,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		292E32691D951F9400FF0A4B /* UIViewRSAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				292E326A1D951F9400FF0A4B /* UIView+RSAdditions.h */,
+				292E326B1D951F9400FF0A4B /* UIView+RSAdditions.m */,
+			);
+			path = UIViewRSAdditions;
+			sourceTree = "<group>";
+		};
 		29EAF4091D91057C00C38E9C = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +151,7 @@
 				29EAF4651D9122D700C38E9C /* GFBaseViewController.m */,
 				29EAF44E1D910BB200C38E9C /* GFRootViewController.h */,
 				29EAF44F1D910BB200C38E9C /* GFRootViewController.m */,
+				292E32681D94FEC000FF0A4B /* GFHeader.h */,
 				29EAF4521D9110D300C38E9C /* Model */,
 				29EAF4531D9110D300C38E9C /* View */,
 				29EAF4541D9110D300C38E9C /* ViewController */,
@@ -180,6 +197,7 @@
 		29EAF4511D9110D300C38E9C /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				292E32691D951F9400FF0A4B /* UIViewRSAdditions */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -198,6 +216,8 @@
 				29EAF4561D9110FE00C38E9C /* GFHomeView.m */,
 				29EAF4581D9119B400C38E9C /* GFHomeCollectionViewCell.h */,
 				29EAF4591D9119B400C38E9C /* GFHomeCollectionViewCell.m */,
+				292E326D1D9523FF00FF0A4B /* GFShowCollectionViewCell.h */,
+				292E326E1D9523FF00FF0A4B /* GFShowCollectionViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -355,8 +375,10 @@
 				29EAF44D1D91074800C38E9C /* AppWindow.m in Sources */,
 				29EAF4231D91057C00C38E9C /* LoveCar.xcdatamodeld in Sources */,
 				29EAF45A1D9119B400C38E9C /* GFHomeCollectionViewCell.m in Sources */,
+				292E326F1D9523FF00FF0A4B /* GFShowCollectionViewCell.m in Sources */,
 				29EAF45D1D91218400C38E9C /* GFShowViewController.m in Sources */,
 				29EAF41D1D91057C00C38E9C /* ViewController.m in Sources */,
+				292E326C1D951F9400FF0A4B /* UIView+RSAdditions.m in Sources */,
 				29EAF4601D9121A800C38E9C /* GFListViewController.m in Sources */,
 				29EAF4501D910BB200C38E9C /* GFRootViewController.m in Sources */,
 				29EAF4631D9121BD00C38E9C /* GFSearchViewController.m in Sources */,

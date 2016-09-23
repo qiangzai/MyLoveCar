@@ -17,11 +17,11 @@
         self.nameLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 200, 30)];
         [self.contentView addSubview:self.nameLabel];
         
-        self.vLine = [[UIView alloc] initWithFrame:CGRectMake(self.frame.size.width, 0, 1, self.frame.size.height)];
+        self.vLine = [[UIView alloc] initWithFrame:CGRectMake(self.frame.size.width, 0, 0.5, self.frame.size.height)];
         self.vLine.backgroundColor = [UIColor grayColor];
         [self.contentView addSubview:self.vLine];
         
-        self.hLine = [[UIView alloc] initWithFrame:CGRectMake(0, self.frame.size.height, self.frame.size.width, 1)];
+        self.hLine = [[UIView alloc] initWithFrame:CGRectMake(0, self.frame.size.height, self.frame.size.width, 0.5)];
         self.hLine.backgroundColor = [UIColor grayColor];
         [self.contentView addSubview:self.hLine];
         
